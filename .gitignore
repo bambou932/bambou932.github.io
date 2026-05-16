@@ -1,0 +1,54 @@
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.crt
+*.cer
+*.p12
+*.pfx
+*.token
+*.secret
+*.credentials
+id_rsa*
+id_ed25519*
+_config.local.yml
+
+# Bundler cache and local gems
+.bundle/
+vendor/
+Gemfile.lock
+
+# Jekyll cache
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/
+_site/
+
+# RubyGems
+*.gem
+
+# NPM dependencies
+node_modules/
+package-lock.json
+
+# Logs and temporary files
+*.log
+log/
+tmp/
+.cache/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE and local tool configuration
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Generated or vendored theme assets
+_sass/vendors/
+assets/js/dist/
